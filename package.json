@@ -1,0 +1,31 @@
+{
+  "name": "cjt-tracker",
+  "version": "1.0.9",
+  "description": "",
+  "type": "module",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "browser": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "前端",
+    "埋点",
+    "tracker"
+  ],
+  "author": "",
+  "files": [
+    "dist"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^3.26.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-dts": "^5.3.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript2": "^0.35.0",
+    "typescript": "^5.1.6"
+  }
+}
